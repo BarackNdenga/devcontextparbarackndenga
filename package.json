@@ -1,0 +1,13 @@
+ "name": "devcontext",
+  "displayName": "DevContext",
+  "description": "Sauvegarde et restauration instantanée de l'état complet de l'espace de travail",
+  "version": "1.0.0",
+  "publisher": "macuser-dev",
+"publisher": "barack-ndenga"
+</xai:function_call >
+<xai:function_call name="edit_file">
+<parameter name="path">/Users/macuser/Desktop/package.json
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
