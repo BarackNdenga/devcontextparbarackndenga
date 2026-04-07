@@ -1,62 +1,31 @@
 # DevContext
 
-Sauvegarde et restauration instantanée de l'état complet de l'espace de travail VSCode.
+![Icon](icon.png)
 
-## Fonctionnalités
-- Sauvegarde des éditeurs ouverts, curseurs, positions
-- Restauration complète
-- Liste des sauvegardes (5 max)
-- Raccourcis Ctrl+Alt+S/R
+**Sauvegarde et restauration instantanée de l'état complet de l'espace de travail VSCode.**
 
-Développé par Barack Ndenga. MIT License.
+## 🚀 Fonctionnalités
+- ✅ Sauvegarde des éditeurs ouverts, curseurs, positions de défilement
+- ✅ Restauration complète de l'état
+- ✅ Liste des 5 dernières sauvegardes
+- ✅ Raccourcis `Ctrl+Alt+S` / `Ctrl+Alt+R`
+- ✅ Support multi-colonnes
+- ✅ Gestion des fichiers manquants
 
-LICENSE.md (MIT)
+## 📖 Utilisation
+```
+Ctrl+Alt+S → Sauvegarder
+Ctrl+Alt+R → Restaurer
+Command Palette → DevContext: List / Clear
+```
 
-MIT License
+## 🔧 Installation
+1. Download VSIX
+2. `code --install-extension devcontext-1.0.0.vsix`
 
-Copyright (c) 2024 Barack Ndenga
+## 📈 Marketplace Ready
+- Size: ~15KB
+- MIT License
+- Publisher: barack-ndenga
 
-Permission is hereby granted... [standard MIT]
-
-
-## 🛠 **Utilisation :**
-1. Copier ces fichiers
-2. `npm install`
-3. `npm run compile` 
-4. `npm run package` → **devcontext.vsix**
-5. Installer .vsix dans VSCode
-
-📤 GUIDE COMPLET : GITHUB + MARKETPLACE (DevContext Barack Ndenga)
-
-1. INSTALLER SUR GITHUB (5min)
-Depuis Terminal (Desktop) :
-
-
-# Git déjà init + commit (précédent)
-git remote add origin https://github.com/barack-ndenga/devcontext.git
-git branch -M main
-git push -u origin main
-OU Manuel GitHub.com :
-
-github.com → New Repository → devcontext
-Copier fichiers du .md créé
-
-📤 GUIDE COMPLET : GITHUB + MARKETPLACE (DevContext Barack Ndenga)
-
-1. INSTALLER SUR GITHUB (5min)
-Depuis Terminal (Desktop) :
-
-
-# Git déjà init + commit (précédent)
-git remote add origin https://github.com/barack-ndenga/devcontext.git
-git branch -M main
-git push -u origin main
-OU Manuel GitHub.com :
-
-github.com → New Repository → devcontext
-Copier fichiers du .md créé
-Upload files → Add devcontext-1.0.0.vsix
-
-2. VSCode MARKETPLACE (publier)
-Upload files → Add devcontext-1.0.0.vsix
-2. VSCode MARKETPLACE (publier)
+**Développé par Barack Ndenga**
